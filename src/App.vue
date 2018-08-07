@@ -16,7 +16,7 @@
         </main>
         <footer>
             <div class="footer-links">
-                <a href="https://www.instagram.com/george_rae/?hl=en" target="_blank" class="text-right"><img :src="images.instagram" alt="Instagram" /></a>
+                <a href="https://www.instagram.com/george_rae/?hl=en" target="_blank" class="text-right"><img src="https://george-rae.github.io/vue-checklist-test/src/assets/images/instagram.png" alt="Instagram" /></a>
             </div>
         </footer>
     </div>
@@ -56,9 +56,9 @@
                 view: '',
                 current: null,
                 editable: false,
-                images: {
-                    instagram: require('./assets/instagram.png')
-                },
+                // images: {
+                //     instagram: require('./assets/images/instagram.png')
+                // },
                 list: []
             }
         },
