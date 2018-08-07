@@ -56,9 +56,6 @@
                 view: '',
                 current: null,
                 editable: false,
-                // images: {
-                //     instagram: require('./assets/images/instagram.png')
-                // },
                 list: []
             }
         },
